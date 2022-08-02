@@ -1,0 +1,5 @@
+*.mp4
+*.gif
+*.png
+*.jpg
+!animation.gif

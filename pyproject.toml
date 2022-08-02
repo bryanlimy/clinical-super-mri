@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supermri"
+version = "0.0.1"
+authors = [
+  { name="Bryan M. Li", email="bryan.li@ed.ac.uk" },
+  { name="Leonardo V. Castorina", email="leonardo.castorina@ed.ac.uk" }
+]
+description = "Deep Attention Super-Resolution of Brain Magnetic Resonance Images Acquired Under Clinical Protocols"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bryanlimy/clinical_super_mri"
+"Bug Tracker" = "https://github.com/bryanlimy/clinical_super_mri"
