@@ -8,12 +8,12 @@ Authors: Bryan M. Li, Leonardo V. Castorina, Maria Del Carmen Valdés Hernández
 
 Please use the following BibTeX entry:
 ```
-@article{li2022super,
-    title={Super-Resolution of Magnetic Resonance Images Acquired Under Clinical Protocols using Deep Attention-based Method},
-    author={Li, Bryan M and Castorina, Leonardo V and Hern{\'a}ndez, Maria Del Carmen Vald{\'e}s and Clancy, Una and Wiseman, Stewart J and Sakka, Eleni and Storkey, Amos J and Garcia, Daniela Jaime and Cheng, Yajun and Doubal, Fergus and T. Thrippleton, Michael and Stringer, Michael and Wardlaw, Joanna M},
-    journal={medRxiv},
-    year={2022},
-    publisher={Cold Spring Harbor Laboratory Press}
+@article{lideep,
+  title={Deep Attention Super-Resolution of Brain Magnetic Resonance Images Acquired Under Clinical Protocols},
+  author={Li, Bryan M and Castorina, Leonardo V and Vald{\'e}s Hern{\'a}ndez, Maria Del Carmen and Clancy, Una and Wiseman, Stewart John and Sakka, Eleni and Storkey, Amos J and Jaime Garcia, Daniela and Cheng, Yajun and Doubal, Fergus and others},
+  journal={Frontiers in Computational Neuroscience},
+  pages={97},
+  publisher={Frontiers}
 }
 ```
 
