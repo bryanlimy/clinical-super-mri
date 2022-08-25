@@ -8,12 +8,16 @@ Authors: Bryan M. Li, Leonardo V. Castorina, Maria Del Carmen Valdés Hernández
 
 Please use the following BibTeX entry:
 ```
-@article{li2022super,
-    title={Super-Resolution of Magnetic Resonance Images Acquired Under Clinical Protocols using Deep Attention-based Method},
-    author={Li, Bryan M and Castorina, Leonardo V and Hern{\'a}ndez, Maria Del Carmen Vald{\'e}s and Clancy, Una and Wiseman, Stewart J and Sakka, Eleni and Storkey, Amos J and Garcia, Daniela Jaime and Cheng, Yajun and Doubal, Fergus and T. Thrippleton, Michael and Stringer, Michael and Wardlaw, Joanna M},
-    journal={medRxiv},
-    year={2022},
-    publisher={Cold Spring Harbor Laboratory Press}
+@article{li2022deep,
+    AUTHOR={Li, Bryan M. and Castorina, Leonardo V. and Valdés Hernández, Maria del C. and Clancy, Una and Wiseman, Stewart J. and Sakka, Eleni and Storkey, Amos J. and Jaime Garcia, Daniela and Cheng, Yajun and Doubal, Fergus and Thrippleton, Michael T. and Stringer, Michael and Wardlaw, Joanna M.},
+    TITLE={Deep attention super-resolution of brain magnetic resonance images acquired under clinical protocols},      
+    JOURNAL={Frontiers in Computational Neuroscience},      
+    VOLUME={16},           
+    YEAR={2022},      
+    URL={https://www.frontiersin.org/articles/10.3389/fncom.2022.887633},       
+    DOI={10.3389/fncom.2022.887633},      
+    ISSN={1662-5188},   
+    ABSTRACT={Vast quantities of Magnetic Resonance Images (MRI) are routinely acquired in clinical practice but, to speed up acquisition, these scans are typically of a quality that is sufficient for clinical diagnosis but sub-optimal for large-scale precision medicine, computational diagnostics, and large-scale neuroimaging collaborative research. Here, we present a critic-guided framework to upsample low-resolution (often 2D) MRI full scans to help overcome these limitations. We incorporate feature-importance and self-attention methods into our model to improve the interpretability of this study. We evaluate our framework on paired low- and high-resolution brain MRI structural full scans (i.e., T1-, T2-weighted, and FLAIR sequences are simultaneously input) obtained in clinical and research settings from scanners manufactured by Siemens, Phillips, and GE. We show that the upsampled MRIs are qualitatively faithful to the ground-truth high-quality scans (<monospace>PSNR</monospace> = 35.39; <monospace>MAE</monospace> = 3.78<monospace>E</monospace>−3; <monospace>NMSE</monospace> = 4.32<monospace>E</monospace>−10; <monospace>SSIM</monospace> = 0.9852; mean normal-appearing gray/white matter ratio intensity differences ranging from 0.0363 to 0.0784 for FLAIR, from 0.0010 to 0.0138 for T1-weighted and from 0.0156 to 0.074 for T2-weighted sequences). The automatic raw segmentation of tissues and lesions using the super-resolved images has fewer false positives and higher accuracy than those obtained from interpolated images in protocols represented with more than three sets in the training sample, making our approach a strong candidate for practical application in clinical and collaborative research.}
 }
 ```
 
